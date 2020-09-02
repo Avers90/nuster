@@ -1433,6 +1433,10 @@ static char **copy_argv(int argc, char **argv)
 								argc--;
 								argv++;
 							}
+						} else {
+							argc--;
+							argv++;
+
 						}
 						break;
 
